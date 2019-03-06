@@ -329,7 +329,7 @@ class App extends Component {
       
   
         <LoginForm onFormSubmit={this.handleFormSubmission} 
-                   title="Pizza Bandit" />
+                   title="Welcome to PizzaLine!" />
         <div>{`Longitude: ${lng} Latitude: ${lat} Zoom: ${zoom}`}</div>
         <Map style={`mapbox://styles/mapbox/${mapstyle}-v9`}
              center={[lng, lat]}
